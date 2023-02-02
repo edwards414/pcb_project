@@ -6,7 +6,7 @@
 
 ## 作品
 
-![](picture/燈座.png)
+![](picture/t1-1.png)
 
 ## 使用技術(軟體)
  - Pcb設計  Alitum designer
@@ -14,12 +14,12 @@
  - Cnc驅動程式  Grblcontrol
  - 3D設計 solidworks
 
-![](picture/模擬電路全.png)
+![](picture/t1-2.png)
 
 使用falstad.com把每一個端點的電流模擬出來控制在SDM LED 可用範圍
 
 
-![](picture/ad流程.png)
+![](picture/t1-3.png)
 # 原理圖
 
 這次繪製的原理圖是使用SDM_5050_LED並聯,透過可變電阻調節電壓使三級管(NPN)實現放大功率的效果
@@ -29,13 +29,13 @@ SDM LED 5050
 
 ![](picture/SDM_LED.PNG)
 SDM 電阻
-![](picture/貼片式電阻.PNG)
+![](picture/t1-5.PNG)
 插件式焊盤/過孔
-![](picture/%E6%8F%92%E4%BB%B6%E5%BC%8F%E5%8E%9F%E5%99%A8%E4%BB%B6.PNG)
+![](picture/t1-6.PNG)
 
 # 3D設計
 
-![](picture/插件式原器件.png)
+![](picture/t1-7.png)
 
 這次3D外觀是使用FDM 3D列印
 分為上蓋、下座、模具
@@ -61,7 +61,7 @@ SDM 電阻
 - 切除電路板
 
 ## cnc雕刻電路銅板
-![](picture/雕刻線路.png)
+![](picture/t1-8.png)
 
 使用cnc將表面的銅雕刻成線路的樣子
 
@@ -71,8 +71,8 @@ SDM 電阻
 - 在電路板上面撒上針車油,用途:減少摩擦力、減少灰塵,看個人所需加跟不加我都試過了雕刻出來的電路板都一樣
 
 針車油對比
-![](picture/使用針車油雕刻.png)
-![](picture/粉塵.jpg)
+![](picture/t1-9.png)
+![](picture/t2-1.jpg)
 ### highmap功能(重要)
 
 這個功能是在cnc驅動軟體(Grblcontrol)中,它是一個專為pcb設計的一個功能,是使用電路相通的原理來紀錄每一個點之間相差的高度,藉由這些點就可以知道電路板平整度,在雕刻線路板時雕刻的深度往往都在0.1mm左右,所以如果沒有使用這個功能會使線路切不斷的問題
@@ -91,25 +91,25 @@ SDM 電阻
 - Spindle speed(轉速) = 10000
 
 ## 阻焊膏塗刷
-![](picture/娟框.png)
+![](picture/t2-2.png)
 
 剛開始用直接刷一次把雕刻的線路都填滿阻焊油,之後使用娟布將綠油刷一層上去,刷上去的密度與娟布的目數有關,目數越高越密集
 
 ### 其他方式
-![](picture/綠油.PNG)
+![](picture/t2-3.PNG)
 
 使用塑膠板(資料夾減一部分)壓綠油讓綠油擴散
 ### 娟印層(top overly)
-![](picture/手工娟印.png)
+![](picture/t2-4.png)
 
 雷射後將白色阻焊油刷上用酒精慢慢擦
 
 ## 紫外光照射
 
 使用紫外燈照射15分鐘
-![](picture/紫外燈2.png)
+![](picture/t2-5.png)
 
-![](picture/紫外燈.png)
+![](picture/t2-6.png)
 
 這是我自製的紫外燈罩,順便改了一下電路(它是蝦皮上45元的商品我就不說是什麼了)要注意的是它只要開超過15分鐘就會開始發熱如果沒有關掉可能會燒掉,所以我之後再它下面放了一塊銅板讓它導熱
 
@@ -117,7 +117,7 @@ SDM 電阻
 
 雷射除綠油是目前最有效率的方式
 
-![](picture/雷射.png)
+![](picture/t2-7.png)
 
 ### 重點
 - 如果有要買雷射頭要注意雷射頭使否可以用夾頭夾住不用另外鎖螺絲
@@ -126,7 +126,7 @@ SDM 電阻
 
 - 使用雷射時需要代電工眼鏡可以濾掉藍光
 
-![](picture/抗光眼鏡.png)
+![](picture/t2-8.png)
 
 ### 雷射數據
 - Power = 250
@@ -134,22 +134,22 @@ SDM 電阻
 - Z軸高度需要用電工眼鏡看是否聚焦
 
 ### 雷射完
-![](picture/雷射後.png)
+![](picture/t2-9.png)
 ### 清潔
-![](picture/雷射綠油清除烤焦.png)
+![](picture/t3-1.png)
 
 ## 鍍錫
 鍍錫目的使錫附著在銅上,焊接時可更容易
-![](picture/鍍錫全.png)
+![](picture/t3-2.png)
 
 使用銅鍍席鎳劑,使用浸鍍的方式
-![](picture/鍍銅錫液.png)
+![](picture/t3-3.png)
 
 浸鍍3分鐘,浸鍍前需要將銅表面利用砂紙磨一下上銅表面粗糙一點,浸鍍時才比較容易附著
-![](picture/銅鍍錫液.png)
+![](picture/t3-4.png)
 ## 切除電路板
 
-![](picture/外框切除.png)
+![](picture/t3-5.png)
 
 ### 外框切除數據
 - 工具2mm 铣刀
@@ -157,21 +157,21 @@ SDM 電阻
 - 2.Z-CUT = 0.8MM (铣一圈)
 - 3.Z-CUT = 1.1MM (铣一圈)
 - 4.Z-CUT = 1.8MM (留四個連接點)
-![](picture/pcb連接.png)
+![](picture/t3-6.png)
 
 ### 焊接
 ![](picture/solder.png)
-![](picture/熱風槍.png)
+![](picture/t3-7.png)
 
 ## 環氧樹植模具拆除
- ![](picture/模具拆除.png)
+![](picture/t3-8.png)
 
  使用cnc除模不是一個理智的作法,我最後使用熱風槍慢慢剝除外殼
  
  剝除後用砂紙磨到光滑
 ## 鉚釘
-![](picture/鉚釘.png)
-![](picture/fr4雙層.PNG)
+![](picture/t3-9.png)
+![](picture/t4-1.PNG)
 
 這是一板廠做出來的pcb,在洞裡都有做附銅,而我們做出來的中間是絕緣層(FR4),所以我們需要使用到鉚釘來讓兩邊相通
 
@@ -183,7 +183,7 @@ cnc製作pcb是一個相對來說成本較高的做法,pcb的做法非常的多,
 製作這個燈座費時4個月多,每個軟體都是第一次學,花最多時間的是製作pcb,光失敗就超過10次,太多因素需要考量,機器螺絲的鬆緊會影響轉軸,轉軸上需要上潤滑膏,highmap沒有設定...太多了,別人是做中學,我是錯中學,在失敗中也算是交齊了學費
 
 下面是失敗作品
-![](picture/失敗.png)
+![](picture/t4-2.png)
 
 
 ![Logo](picture/logo.png)
